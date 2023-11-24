@@ -1,5 +1,5 @@
 ## Operadores
-Los siguientes operadores se pueden incluir en las consultas con la declaración WHERE. (Sin el uso de las comillas)
+Los siguientes operadores se pueden incluir en las consultas con la declaración WHERE, UPDATE, DELETE, entre otras.
 
 | Operador  | Descripción                                          |
 | --------- | ---------------------------------------------------- |
