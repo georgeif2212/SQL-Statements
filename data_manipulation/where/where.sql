@@ -27,3 +27,12 @@ SELECT * FROM Customer WHERE Country LIKE 'C%';
 -- ! Los id's 1 y 3 corresponden al genero Rock y metal
 
 SELECT * FROM Track WHERE GenreId IN (1,3);
+
+-- ? Filtrar con BETWEEN:
+
+-- ? Muestra todas las facturas de la tabla invoices emitidas entre las fechas '2009-01-01' y '2009-02-01'.
+
+SELECT *
+FROM Invoice
+WHERE
+    InvoiceDate BETWEEN '2009-01-01' AND '2009-02-01';
