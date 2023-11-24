@@ -3,6 +3,11 @@
 use Northwind;
 
 --Consulta Básica:
+
 --Muestra todos los registros de la tabla Customers.
 
 select * from dbo.Customers;
+
+--Muestra la ciudad de los registros de la tabla Employees.
+
+select City from dbo.Employees;
