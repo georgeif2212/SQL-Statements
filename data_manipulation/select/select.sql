@@ -1,0 +1,8 @@
+﻿-- En estos ejercicios estaré trabajando con la base de datos Northwind
+
+use Northwind;
+
+--Consulta Básica:
+--Muestra todos los registros de la tabla Customers.
+
+select * from dbo.Customers;
