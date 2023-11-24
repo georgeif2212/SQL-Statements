@@ -14,3 +14,8 @@ SELECT * FROM dbo.Employee WHERE City = 'Lethbridge';
 
 SELECT * FROM TRACK WHERE Milliseconds > 300000;
 
+-- ? Filtrar con LIKE:
+
+-- ? Muestra todos los clientes de la tabla customers cuyo país comienza con la letra "C".
+
+SELECT * FROM Customer WHERE Country LIKE 'C%';
