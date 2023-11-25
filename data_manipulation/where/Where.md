@@ -1,8 +1,8 @@
 # WHERE
 
-La declaración **WHERE** es usada para filtrar los registros que provienen de alguna tabla de una base de datos.
+La clausula **WHERE** es usada para filtrar los registros que provienen de alguna tabla de una base de datos.
 
-Se usa para extraer solamente los registros que cumplan con alguna condición específica. Esta declaración no es únicamente usada en las declaraciones **SELECT**, también se usa declaraciones **UPDATE**, **DELETE**, entre otras.
+Se usa para extraer solamente los registros que cumplan con alguna condición específica. Esta clausula no es únicamente usada en las declaraciones **SELECT**, también se usa declaraciones **UPDATE**, **DELETE**, entre otras.
 
 
 ## Sintaxis
