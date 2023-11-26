@@ -20,6 +20,6 @@ SELECT * FROM Employees WHERE NOT Country = 'USA';
 
 -- ? Filtrar por Pedidos que NO tengan Envío Gratis:
 
--- ? Muestra todos los pedidos de la tabla Orders que NO tengan envío menor a 130.
+-- ? Muestra todos los pedidos de la tabla Orders que NO tengan envío menor a 170.
 
 SELECT * FROM Orders WHERE NOT Freight < 170;
