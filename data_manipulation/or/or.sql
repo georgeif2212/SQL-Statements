@@ -12,4 +12,14 @@ SELECT * FROM Track WHERE GenreId = 1 OR GenreId = 9;
 
 -- ? Muestra todos los clientes de la tabla customers que sean de 'USA' o su nombre comience con "J".
 
-SELECT * FROM Customer WHERE Country = 'USA' OR FirstName LIKE 'J%';
+SELECT * FROM Customer WHERE Country = 'USA' OR FirstName LIKE 'J%' 
+
+-- ? Filtrar por Factura o Forma de Pago:
+
+-- ? Muestra todas las facturas de la tabla invoices que provengan de la ciudad Oslo o del País Alemania
+
+SELECT *
+FROM Invoice
+WHERE
+    BillingCity = 'Oslo'
+    OR BillingCountry = 'Germany';
