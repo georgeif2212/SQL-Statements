@@ -11,3 +11,9 @@ FROM Products
 WHERE
     NOT CategoryID = 1
     AND NOT CategoryID = 8;
+
+-- ? Filtrar por Empleados que NO sean de un Territorio Específico:
+
+-- ? Muestra todos los empleados de la tabla Employees que NO sean de 'USA'.
+
+SELECT * FROM Employees WHERE NOT Country = 'USA';
