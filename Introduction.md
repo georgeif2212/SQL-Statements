@@ -10,7 +10,7 @@ Una tabla es una colección de entradas de datos relacionados formados en column
 ## SQL Statements
 Las acciones que se necesitan realizar en una base de datos son hechas con **SQL Statements**, los cuales consisten en palabras clave que son fáciles 
 de entender, algunos ejemplos son:
-- **CREATE DATABASE**
+- `CREATE DATABASE`
 - **CREATE TABLE**
 - **SELECT**
 - **UPDATE**
