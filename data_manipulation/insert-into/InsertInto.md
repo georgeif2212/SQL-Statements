@@ -21,3 +21,7 @@ SQL también permite insertar varios registros con una misma sentencia.
 Simplemente debes asegurarte de colocar una coma "," entre cada conjunto de valores
 
 ```INSERT INTO nombre_tabla VALUES ('value1_column1', 'value2_column2', 'value3_column3', 'value4_column4'), ('value5_column1','value6_column2', 'value7_column3', 'value8_column4'),(...);```
+
+## Extra
+
+Algo importante a mencionar es que las tablas que contengan un campo ID no es necesario insertarles un valor, puesto que este campo es auto incrementable cuando se inserta un nuevo registro
