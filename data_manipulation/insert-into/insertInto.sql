@@ -49,3 +49,18 @@ VALUES (
         213876,
         0.99
     );
+
+-- ? Insertar un Nuevo Empleado en la tabla Employees
+
+-- ? Proporciónale un LastName, FirstName, y Title. Asegúrate de que el ReportsTo exista.
+
+SELECT * FROM Employee;
+
+INSERT INTO
+    Employee (
+        EmployeeId,
+        LastName,
+        FirstName,
+        ReportsTo
+    )
+VALUES (9, 'Roberto Carlos', 'Perez', 6);
