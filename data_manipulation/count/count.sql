@@ -7,3 +7,10 @@ USE AdventureWorksDW2022
 -- ? Obtener la cantidad total de empleados en la tabla DimEmployee.
 
 SELECT COUNT(*) AS EmployeeNumber FROM DimEmployee;
+
+--Contar la Cantidad de Clientes que tienen 3 carros o más:
+
+SELECT
+    COUNT(*) AS CustomerWith3OrMoreCars
+FROM DimCustomer
+WHERE NumberCarsOwned >= 3;
