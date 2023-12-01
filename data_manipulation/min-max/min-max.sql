@@ -17,3 +17,13 @@ WHERE ProductSubcategoryKey = 2;
 -- ? Obtener la fecha más reciente de nacimiento (BirthDate) de la tabla DimCustomer.
 
 SELECT MAX(BirthDate) AS OlderCustomer FROM DimCustomer
+
+-- ? Obtener el Precio Máximo de Ventas:
+
+-- ? Obtener el precio de venta máximo (SalesAmount) del cliente con id 21768
+
+-- ? de la tabla FactInternetSales.
+
+SELECT MAX(SalesAmount)
+FROM FactInternetSales
+WHERE CustomerKey = 21768;
