@@ -1,4 +1,5 @@
 ﻿-- * Para estos ejercicios estaré utilizando la base de datos Northwind
+
 use Northwind;
 
 -- ? Filtrar Registros con Valor NULL:
@@ -24,3 +25,9 @@ INSERT INTO
 VALUES ('Gomitas', 3, 0);
 
 SELECT * FROM Products;
+
+-- ? Filtrar Registros con Valor distinito a NULL:
+
+-- ? Muestra todos los clientes que tengan alguna región definida
+
+SELECT * FROM Customers WHERE Region IS NOT NULL;
