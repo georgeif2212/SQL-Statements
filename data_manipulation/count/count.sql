@@ -14,3 +14,7 @@ SELECT
     COUNT(*) AS CustomerWith3OrMoreCars
 FROM DimCustomer
 WHERE NumberCarsOwned >= 3;
+
+-- Contar la Cantidad de Empleados que ingresaron después de '2008-10-10':
+
+SELECT COUNT(*) FROM DimEmployee WHERE HireDate > '2008-10-10'
