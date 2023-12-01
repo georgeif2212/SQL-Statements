@@ -15,3 +15,14 @@ Por ejemplo:
 Ó:
 
 `SELECT * FROM nombre_tabla WHERE nombre_columa IS NOT NULL;`
+
+## INSERT OR UPDATE STATEMENT
+
+Como mencioné, este valor se coloca por default cuando un valor no es asignado pero también se puede utilizar de manera manual con el insert o cuando se desea actualizar un campo y no darle ningún valor, por ejemplo:
+
+`INSERT INTO Customers (CustomerID, CompanyName, Region)
+VALUES ('NEWCUST', 'New Company', NULL);`
+
+`UPDATE Customers
+SET Region = NULL
+WHERE CustomerID = 'ALFKI';`
