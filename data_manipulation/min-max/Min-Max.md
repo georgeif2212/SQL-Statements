@@ -15,3 +15,13 @@ Para encontrar el valor más grande de una columna "column1" se usa:
 ```
 SELECT MAX(column1) FROM nombre_tabla;
 ```
+
+### Alias
+
+Cuando se usa alguna de estas dos funciones, se retorna una única columna cuyo nombre será `MIN(field)` o `MAX(field)`.
+
+Para darle otro nombre a esta columan se usa la palabra clave `AS`
+
+```
+SELECT MAX(column1) AS nuevo_nombre FROM nombre_tabla;
+```
