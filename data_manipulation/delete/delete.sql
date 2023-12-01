@@ -1,9 +1,15 @@
-﻿-- * Para estos ejercicios estaré utilizando la base de datos AdventureWorksDW
+﻿-- * Para estos ejercicios estaré utilizando la base de datos Northwind
 
-USE AdventureWorksDW2022;
+USE Northwind;
 
--- ? Eliminar Empleados despedidos:
+-- ? Eliminar Pedidos que su fecha de envió sea nula o vacía:
 
--- ? Elimina todos los empleados de la tabla DimEmployee donde la fecha de
+-- ? Elimina todos los pedidos de la tabla Orders en la base de datos "Northwind"
 
--- ? despido (EndDate) no sea NULL.
+-- ? que tengan el campo ShippedDate en blanco.
+
+SELECT * FROM Orders;
+
+DELETE FROM Orders WHERE ShippedDate IS NULL;
+
+SELECT * FROM Orders;
