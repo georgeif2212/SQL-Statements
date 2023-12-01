@@ -11,3 +11,9 @@ USE AdventureWorksDW2022;
 SELECT MIN(ListPrice)
 FROM DimProduct
 WHERE ProductSubcategoryKey = 2;
+
+-- ? Obtener la Fecha Máxima de Nacimiento de Clientes:
+
+-- ? Obtener la fecha más reciente de nacimiento (BirthDate) de la tabla DimCustomer.
+
+SELECT MAX(BirthDate) AS OlderCustomer FROM DimCustomer
