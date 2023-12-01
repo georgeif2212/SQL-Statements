@@ -17,3 +17,15 @@ SET BaseRate = BaseRate * 1.15
 WHERE EmployeeKey = 89;
 
 SELECT * FROM DimEmployee WHERE EmployeeKey = 89;
+
+-- ? Actualizar Varios Campos a la Vez:
+
+-- ? Actualiza el correo electrónico y el primer nombre del empleado con ID 12
+
+UPDATE DimEmployee
+SET
+    FirstName = 'Peter',
+    EmailAddress = 'peter123@outlook.com'
+WHERE EmployeeKey = 12;
+
+SELECT * FROM DimEmployee WHERE EmployeeKey = 12;
