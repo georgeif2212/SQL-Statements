@@ -15,3 +15,9 @@ SELECT SUM(Quantity) AS TotalUnidadesVendidas FROM [Order Details]
 SELECT
     SUM(UnitPrice * UnitsInStock) AS PrecioTotalProductosEnInventario
 FROM Products;
+
+-- ?Sumar el Monto Total de Facturas:
+
+-- ?Utiliza SUM para obtener el monto total de facturas (Freight) en la tabla Orders.
+
+SELECT SUM(Freight) AS MontoTotalFacturas FROM Orders;
