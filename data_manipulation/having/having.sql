@@ -11,3 +11,16 @@ GROUP BY
     Categories.CategoryName
 HAVING
     COUNT(Products.ProductID) > 5;
+
+-- ? Empleados con más de 100 órdenes de envío:
+-- ? Encuentra los empleados que han manejado más de 100 órdenes de envío.
+
+SELECT
+    Employees.FirstName + ' ' + Employees.LastName AS FullName,
+    COUNT(Orders.OrderID) AS OrdersPerEmployee
+FROM Orders
+    INNER JOIN Employees ON Orders.EmployeeID = Employees.EmployeeID
+GROUP BY
+    Employees.FirstName + ' ' + Employees.LastName
+HAVING
+    COUNT(ORDERS.OrderID) > 100;
