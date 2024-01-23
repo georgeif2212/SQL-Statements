@@ -1,6 +1,6 @@
 # SQL SELECT INTO Statement
 
-La declaración `SELECT INTO` se usa para copiar registros de una tabla a otra.
+La declaración `SELECT INTO` se usa para copiar registros de una tabla a una nueva tabla.
 
 Se pueden usar condiciones en esta declaración para solo copiar registros específicos
 
