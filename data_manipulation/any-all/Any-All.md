@@ -4,8 +4,6 @@ Los operadores `ANY` y `ALL` se utilizan en conjunto de subconsultas y comparaci
 
 Este operador, retorna `TRUE` si la subconsulta devuelve por lo menos 1 registro.
 
-Si no hay filas que satisfacen la condición especificada en la cláusula `EXISTS`, la consulta principal no devolverá ninguna fila.
-
 ## ANY
 
 El operador `ANY` retorna `TRUE` si al menos uno de los valores de la subconsulta cumplen con la condición.
