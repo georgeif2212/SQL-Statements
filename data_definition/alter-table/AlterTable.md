@@ -56,3 +56,21 @@ EXEC sp_rename 'nombre_tabla.viejo_nombre_columna',  'nuevo_nombre_columna', 'CO
 EXEC sp_rename 'Students.gmail',  'email', 'COLUMN';
 
 ```
+
+## ALTER TABLE para modificar el tipo de dato de una columna
+
+### Sintaxis
+
+Para cambiar el tipo de dato de una columna en una tabla de una base de datos:
+
+```
+ALTER TABLE nombre_tabla
+ALTER COLUMN nombre_columna datatype;
+```
+
+#### Ejemplo
+
+```
+ALTER TABLE STUDENTS
+ALTER COLUMN email varchar(100);
+```
