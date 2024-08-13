@@ -11,11 +11,11 @@ Para añadir restricción de tipo `FOREIGN KEY` a un campo de una tabla SQL:
 
 ```
 CREATE TABLE table_name (
-    primaria tipo_dato PRIMARY KEY,
-    columna2 tipo_dato,
+    columna1 tipo_dato PRIMARY KEY,
+    foranea tipo_dato,
     columna3 tipo_dato,
    ....
-    FOREIGN KEY (primaria) REFERENCES tabla2(primaria_tabla2)
+    FOREIGN KEY (foranea) REFERENCES tabla2(primaria_tabla2)
 );
 ```
 
