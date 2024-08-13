@@ -42,7 +42,7 @@ CREATE TABLE students (
     LastName varchar(255) NOT NULL,
     FirstName varchar(255),
     Age int,
-    CONSTRAINT PK_Person PRIMARY KEY (ID,LastName)
+    CONSTRAINT PK_student PRIMARY KEY (ID,LastName)
 );
 ```
 
